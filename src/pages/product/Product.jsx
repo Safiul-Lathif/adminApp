@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom/cjs/react-router-dom.min"
-import"./product.css"
+import"./Product.css"
 import Chart from "../../components/chart/Chart"
-import { productData } from "../userList/dummyData";
-import Airpod from "../userList/Airpod.png"
+import { productData } from "../../DummyData";
 import { Publish } from "@mui/icons-material";
 export default function product() {
   return (
@@ -19,7 +18,7 @@ export default function product() {
         </div>
         <div className="productTopRight">
           <div className="productInfoTop">
-            <img src={Airpod} alt="" className="productTopImg" />
+            <img src= "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="productTopImg" />
             <span className="productName">Apple Airpods</span>
           </div>
           <div className="productInfoBottom">
@@ -60,7 +59,7 @@ export default function product() {
                </div>
                <div className="productFormRight">
                  <div className="productUpload">
-                   <img src={Airpod} alt="" className="productUplodeImg" />
+                   <img src= "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="productUplodeImg" />
                    <label For="file">
                      <Publish/>
                    </label>

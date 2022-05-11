@@ -1,6 +1,5 @@
 import React from 'react'
-import "./topBar.css"
-import pic from './a.jpg'
+import "./TopBar.css"
 import SettingsIcon from '@mui/icons-material/Settings';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import LanguageIcon from '@mui/icons-material/Language';
@@ -27,7 +26,7 @@ export default function Topbar() {
               <div className="topbariconcontainer">
              <SettingsIcon/>
              </div>
-             <img src={pic} alt="" className="topavator" />
+             <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="topavator" />
              </div>
         </div>
      </div>

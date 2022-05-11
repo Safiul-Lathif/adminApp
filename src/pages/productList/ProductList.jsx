@@ -1,8 +1,8 @@
 import { React, useState } from "react";
-import  "./productList.css"
+import  "./ProductList.css"
 import { DataGrid } from "@mui/x-data-grid";
 import { DeleteOutline } from "@mui/icons-material";
-import {productRows} from "../userList/dummyData" ;
+import {productRows} from "../../DummyData" ;
 import { Link } from "react-router-dom";
 
 export default function ProductList() { 
