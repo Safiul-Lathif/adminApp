@@ -1,6 +1,3 @@
-import air from "./Airpod.png";
-import saf from "../user/a.jpg";
-
 export const userData = [
   {
     name: "Jan",
@@ -75,7 +72,7 @@ export const userRows = [
   {
     id: 1,
     userName: "Safi",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "safi@gmail.com ",
     statuss: "Active",
     transaction: "$222.00",
@@ -83,7 +80,7 @@ export const userRows = [
   {
     id: 2,
     userName: "Salman",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "Salman@gmail.com ",
     statuss: "Active",
     transaction: "$222.00",
@@ -91,7 +88,7 @@ export const userRows = [
   {
     id: 3,
     userName: "Imran",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "Imran@gmail.com ",
     statuss: "Active",
     transaction: "$222.00",
@@ -99,7 +96,7 @@ export const userRows = [
   {
     id: 4,
     userName: "Sheik",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "Sheik@gmail.com ",
     statuss: "InActive",
     transaction: "$222.00",
@@ -107,7 +104,7 @@ export const userRows = [
   {
     id: 5,
     userName: "Rasheed",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "Rasheed@gmail.com ",
     statuss: "Active",
     transaction: "$222.00",
@@ -115,7 +112,7 @@ export const userRows = [
   {
     id: 6,
     userName: "Sahul",
-    avator: saf,
+    avator: "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "Sahul@gmail.com ",
     statuss: "InActive",
     transaction: "$222.00",
@@ -123,7 +120,7 @@ export const userRows = [
   {
     id: 7,
     userName: "Ansari",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "Ansari@gmail.com ",
     statuss: "Active",
     transaction: "$222.00",
@@ -131,7 +128,7 @@ export const userRows = [
   {
     id: 8,
     userName: "NagoorKani",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "NagoorKani@gmail.com ",
     statuss: "Active",
     transaction: "$222.00",
@@ -139,7 +136,7 @@ export const userRows = [
   {
     id: 9,
     userName: "Sadakatullah",
-    avator: saf,
+    avator:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "Sadakatullah@gmail.com ",
     statuss: "Active",
     transaction: "$222.00",
@@ -150,7 +147,7 @@ export const productRows = [
   {
     id: 1,
     name: "Apple Airpods",
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "Active",
     Price: "$222.00",
@@ -158,7 +155,7 @@ export const productRows = [
   {
     id: 2,
     name: "Apple Airpods",
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "Active",
     Price: "$222.00",
@@ -166,7 +163,7 @@ export const productRows = [
   {
     id: 3,
     name: "Apple Airpods",
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "Active",
     Price: "$222.00",
@@ -174,7 +171,7 @@ export const productRows = [
   {
     id: 4,
     name: "Apple Airpods",
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "InActive",
     Price: "$222.00",
@@ -182,7 +179,7 @@ export const productRows = [
   {
     id: 5,
     name: "Apple Airpods",
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "Active",
     Price: "$222.00",
@@ -190,7 +187,7 @@ export const productRows = [
   {
     id: 6,
     name: "Apple Airpods", 
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "InActive",
     Price: "$222.00",
@@ -198,7 +195,7 @@ export const productRows = [
   {
     id: 7,
     name: "Apple Airpods",  
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "Active",
     Price: "$222.00",
@@ -206,7 +203,7 @@ export const productRows = [
   {
     id: 8,
     name: "Apple Airpods", 
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "Active",
     Price: "$222.00",
@@ -214,7 +211,7 @@ export const productRows = [
   {
     id: 9,
     name: "Apple Airpods",
-    img: air ,
+    img: "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" ,
     stock: 123 ,
     statuss: "Active",
     Price: "$222.00",

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./widgetLg.css"
+import "./WidgetLg.css"
 
 export default function WidgetLg() {
   const Button = ({ type }) => {
@@ -17,7 +17,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetlgtr">
           <td className="widgetlguser">
-            <img src="./image/b (1).jpg" alt="" className="widgetlgimage" />
+            <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetlgimage" />
             <span className="widgetlgname">Safi</span>
 
           </td>
@@ -28,7 +28,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetlgtr">
           <td className="widgetlguser">
-            <img src="./image/b (2).jpg" alt="" className="widgetlgimage" />
+            <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetlgimage" />
             <span className="widgetlgname">Salman</span>
 
           </td>
@@ -38,7 +38,7 @@ export default function WidgetLg() {
 
         </tr><tr className="widgetlgtr">
           <td className="widgetlguser">
-            <img src="./image/b (3).jpg" alt="" className="widgetlgimage" />
+            <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetlgimage" />
             <span className="widgetlgname">Rasheed</span>
 
           </td>
@@ -48,7 +48,7 @@ export default function WidgetLg() {
 
         </tr><tr className="widgetlgtr">
           <td className="widgetlguser">
-            <img src="./image/b (1).jpg" alt="" className="widgetlgimage" />
+            <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetlgimage" />
             <span className="widgetlgname">Imran</span>
 
           </td>

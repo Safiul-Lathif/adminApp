@@ -1,5 +1,4 @@
-import "./user.css";
-import sa from "./a.jpg";
+import "./User.css";
 import {
   CalendarToday,
   LocationSearching,
@@ -22,7 +21,7 @@ export default function User() {
       <div className="usercontainer">
         <div className="usershow">
           <div className="usershowtop">
-            <img src={sa} alt="" className="usershowimage" />
+            <img src= "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="usershowimage" />
             <div className="toptiitlr">
               <span className="usershowname">Safi</span>
               <span className="usershowtitle"> Software Engineer</span>
@@ -109,7 +108,7 @@ export default function User() {
             </div>
             <div className="updateright">
               <div className="updateuplode">
-                <img src={sa} alt="" className="updateimage" />
+                <img src= "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="updateimage" />
                 <label htmlFor="file">
                   <Publish className="sss" />{" "}
                 </label>

@@ -1,6 +1,6 @@
 import { Visibility } from "@mui/icons-material";
 import React from "react";
-import "./widgetSm.css";
+import "./WidgetSm.css";
 
 export default function WidgetSm() {
   return (
@@ -8,7 +8,7 @@ export default function WidgetSm() {
       <span className="widgetsmtitle">New Join Members</span>
       <ul className="widgetsmlist">
         <li className="widgetsmlistitm">
-          <img src="./image/b (1).jpg" alt="" className="widgetsmimage" />
+          <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetsmimage" />
           <div className="widgetsmuser">
             <span className="widgetsmusername">Salman</span>
             <span className="widgetsmusertitle">software developer</span>
@@ -20,7 +20,7 @@ export default function WidgetSm() {
         </li>
 
         <li className="widgetsmlistitm">
-          <img src="./image/b (2).jpg" alt="" className="widgetsmimage" />
+          <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetsmimage" />
           <div className="widgetsmuser">
             <span className="widgetsmusername">Rasheed</span>
             <span className="widgetsmusertitle">software developer</span>
@@ -31,7 +31,7 @@ export default function WidgetSm() {
           </button>
         </li>
         <li className="widgetsmlistitm">
-          <img src="./image/b (3).jpg" alt="" className="widgetsmimage" />
+          <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetsmimage" />
           <div className="widgetsmuser">
             <span className="widgetsmusername">Suresh</span>
             <span className="widgetsmusertitle">software developer</span>
@@ -42,7 +42,7 @@ export default function WidgetSm() {
           </button>
         </li>
         <li className="widgetsmlistitm">
-          <img src="./image/b (1).jpg" alt="" className="widgetsmimage" />
+          <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetsmimage" />
           <div className="widgetsmuser">
             <span className="widgetsmusername">Imran</span>
             <span className="widgetsmusertitle">software developer</span>
@@ -53,7 +53,7 @@ export default function WidgetSm() {
           </button>
         </li>
         <li className="widgetsmlistitm">
-          <img src="./image/b (2).jpg" alt="" className="widgetsmimage" />
+          <img src= "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=25" alt="" className="widgetsmimage" />
           <div className="widgetsmuser">
             <span className="widgetsmusername">Ahsan</span>
             <span className="widgetsmusertitle">software developer</span>
