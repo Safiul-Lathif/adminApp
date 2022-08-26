@@ -3,8 +3,7 @@ import React from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import MultilineChartIcon from "@mui/icons-material/MultilineChart";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
-import {
-  AccountCircle,
+import {  
   Email,
   Feedback,
   Inventory,
@@ -12,9 +11,9 @@ import {
   Message,
   ProductionQuantityLimits,
   ReportGmailerrorredOutlined,
+  ShoppingCart,
 } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -40,19 +39,18 @@ export default function Sidebar() {
           <ul className="sodebarlist">
             <Link to="/users" className="link">
               <li className="sidebarlist">
-                <AccountCircle className="sidebaricon" />
-                Users
+                <ShoppingCart className="sidebaricon" />
+                Orders
               </li>
             </Link>
             <Link to="/products"className="link">
-               <li className="sidebarlist">
-                 <ProductionQuantityLimits className="sidebaricon" /> Products
-               </li>
+              <li className="sidebarlist">
+                <ProductionQuantityLimits className="sidebaricon" /> Products
+              </li>
             </Link>
             <li className="sidebarlist">
               <Inventory className="sidebaricon" /> Reports
             </li>
-           
           </ul>
         </div>
         <div className="sidebarmenu">

@@ -10,7 +10,7 @@ export default function Topbar() {
     <div className="topbar">
         <div className='topbarwrapper'>
             <div className="topleft">
-             <span className="logo">Admin App</span>
+             <span className="logo">Beez POS</span>
             </div>
             <div className="topright">
               <Link to="/NotificationPage" className="linnk">

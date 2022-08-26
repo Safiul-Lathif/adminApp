@@ -1,0 +1,89 @@
+.widgetlg{
+  flex: 2;
+  width: 300px;
+}
+  .widgetlgtitle {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .s{
+    display: flex;
+  }
+  .sa{
+    margin-left: 900px;
+  }
+  .widgetlgimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .Widgetlgbutton {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+  }
+  .Widgetlgbutton.paymentMode{
+    background-color: #e5faf2;
+    color: #3bb077;
+    padding-right: 10px;
+  }
+  .Widgetlgbutton.Declined {
+    background-color: #fff0f1;
+    color: darkred;
+  }
+  .Widgetlgbutton.Pending {
+    background-color: #ebf1fe;
+    color: darkblue;
+  }
+  .widgetlgtable {
+    width: 100%;
+    border-spacing: 20px;
+  }
+  .producttitle{
+    color: gray;
+    display: flex;
+  }
+  .widgetlgth {
+    text-align:center;
+  }
+  .widgetlguser {
+    align-items: center;
+    display: flex;
+  }
+  .widgetlgname {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  .widgetlgdate,
+  .widgetlgamount {
+    font-weight: 200;
+  }
+  .widgetlgth1 {
+    text-align: left;
+  }
+  .widgetlguser1 {
+    align-items: center;
+    display: flex;
+  }
+  .widgetlgname1 {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  .widgetlgdate1
+  {
+    font-weight: 200;
+    
+  }
+  .widgetlgimage1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .widgetlgamount1 {
+    
+    font-weight: 200;
+    padding-right: 80px;
+  }
+  
