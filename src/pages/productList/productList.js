@@ -1,35 +1,10 @@
 import React from "react";
-import { db } from "../../components/database/firebase";
 import "./productLists.css";
 import { Link } from "react-router-dom";
 import { useState,useEffect } from 'react';
-import { Form, Alert, InputGroup, Button, ButtonGroup } from "react-bootstrap";
-import ProductsDataService from '../../components/database/product_service';
-import delete_forever  from '@mui/icons-material/Language';
+import ProductsDataService from '../../components/database/ProductService';
 
-// class ProductName extends React.Component{ 
-//     state ={
-//         products: null,
-//         data:''
-//     }
-    
-//     componentDidMount(){
-//         console.log('mounted')
-//         db.collection('Products')
-//         .get()
-//         .then( snapshot => {
-//             const products = []
-//             snapshot.forEach( doc => {
-//                 const data = doc.data()
-//                 products.push(data)
-//             })
-//             this.setState({ products: products})
-//                     console.log(snapshot)     
-//         })
-//         .catch( error => console.log(error) )
-//     }
-//     render(){
-    const ProductsList = ({getProductId  }) => {
+    const ProductsList = () => {
         const [products, setProducts] = useState([]);
         const [name,setName] = useState("");
         const [brand,setBrand] = useState("");

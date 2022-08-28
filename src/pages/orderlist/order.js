@@ -1,7 +1,7 @@
 
 import React from "react";
-import { db } from "../../components/database/firebase";
-import "./order.css";
+import { db } from "../../components/database/FireBase";
+import "./Order.css";
 class Orders extends React.Component{ 
     state ={
         orders: null
@@ -41,10 +41,7 @@ class Orders extends React.Component{
                 this.state.orders.map( e => {
                     return(
                         <tr className="widgetlgtr1">
-                            <td className="widgetlgamount1">
-                                
-                                {e.Id}
-                            </td>
+                            <td className="widgetlgamount1">{e.Id}</td>
                             <td className="widgetlgdate1">{e.createdAt}</td>
                             <td className="widgetlgamount1">{e.cartTotal}</td>
                             <td className="widgetlgstatus1"><Button type={e.paymentMode} /> </td>

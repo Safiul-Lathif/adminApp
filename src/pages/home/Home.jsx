@@ -2,9 +2,9 @@ import React from "react";
 import Chart from "../../components/chart/Chart";
 import Featuredubfo from "../../components/featuredinfo/FeaturedInfo";
 import { userData } from "../../DummyData";
-import ProductName from "../../components/widgetsm/product"
+import ProductName from "../../components/widgetsm/Product"
 import "./Home.css";
-import Orders from "../../components/widgetlg/order";
+import Orders from "../../components/widgetlg/Order";
 
 export default function Home() {
   return (

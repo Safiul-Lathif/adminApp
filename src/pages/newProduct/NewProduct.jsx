@@ -1,89 +1,28 @@
 import React from 'react'
 import "./NewProduct.css"
-import { db }from '../../components/database/firebase'
+import { db } from '../../components/database/FireBase'
 import { useState ,useEffect} from 'react';
-import ProductsDataService from '../../components/database/product_service';
+import ProductsDataService from '../../components/database/ProductService';
 import { Form, Alert, InputGroup, Button, ButtonGroup } from "react-bootstrap";
-// export default function NewProduct() {
-//    const [product, setProduct] = useState({name:'',productId:0,brand:'',description:'',image:'',price:0});
 
-//    const handleChange = (event) =>{
-//       event.preventDefault();
-//       const { name , value} = event.target;
-//       setProduct((prev)=>{
-//       return { ...prev,[name]: value};
-//       });
-//       };
-// const addNewProducts = (event) => {
-//    event.preventDefault();
-//    db.collection('Products')
-//    .add({
-//       brand : product.brand ,  description : product.description ,image : product.image ,  name : product.name , price : product.price,productId : product.productId  
-//    }).then((docRef)=> {
-//    }).catch((err)=> {
-//    });
-// };
-// return (
-//    <div className='newProduct'>
-//       <h1 className="newProductTitle">New Product</h1>
-//       <form className="newProductForm"  >
-//       <div className="addProductItem">
-//          <label>Image</label>
-//          <input type="text" name='image' 
-//          value={product.image} onChange={handleChange} 
-//          />
-//        </div>
-//        <div className="addProductItem">
-//           <label>Brand</label>
-//           <input type="text"  name='brand'value={product.brand} onChange={handleChange} />
-//        </div>
-//        <div className="addProductItem">
-//           <label>Description</label>
-//           <input type="text" name='description' value={product.description} onChange={handleChange}/>
-//        </div>
-//        <div className="addProductItem">
-//           <label>ProductId</label>
-//           <input type="number" name='productId'value={product.productId} onChange={handleChange} />
-//        </div>
-//        <div className="addProductItem">
-//           <label>Name</label>
-//           <input type="text" name='name'value={product.name} onChange={handleChange} />
-//        </div>
-//        <div className="addProductItem">
-//           <label>Price</label>
-//           <input type="number" name='price'value={product.price} onChange={handleChange} />
-//        </div>
-      
-//        <button className="addProduct" onClick={addNewProducts} >Create</button>
-//       </form>      
-//     </div>
-//   );
-// }
-
-//export default function NewProduct()  {
-   const AddProduct = ({ id, setProductid }) => {
-   const [name,setName] = useState("");
-   const [brand,setBrand] = useState("");
-   const [description,setDescription] = useState("");
-   const [productId,setProductId] = useState(0);
-   const [image,setImage] = useState("");
-   const [price,setPrice] = useState(0);
-   const [category,setCategory] = useState("");
-   const [message,setMessage] = useState({error:false,message:""});
-   
-   const handleSubmit = async(event) =>{
-      event.preventDefault();
-      setMessage("");
-      if(name ===''|| image === ''|| brand ===""|| description===''|| price===0|| productId===0 || category==='')
+const AddProduct = ({ id, setProductid }) => {
+const [name,setName] = useState("");
+const [brand,setBrand] = useState("");
+const [description,setDescription] = useState("");
+const [productId,setProductId] = useState(0);
+const [image,setImage] = useState("");
+const [price,setPrice] = useState(0);
+const [category,setCategory] = useState("");
+const [message,setMessage] = useState({error:false,message:""});
+const handleSubmit = async(event) =>{
+   event.preventDefault();
+   setMessage("");
+   if(name ===''|| image === ''|| brand ===""|| description===''|| price===0|| productId===0 || category==='')
       {
          setMessage({error:true,message:"All fields are mandatory"});
          return;
       }
-      // const { name , value} = event.target;
-      // setProduct((prev)=>{
-      // return { ...prev,[name]: value};
-      // });
-      const newProduct ={
+const newProduct ={
          name,image,brand,description,price,productId,category
       };
      console.log(newProduct);
@@ -176,7 +115,6 @@ import { Form, Alert, InputGroup, Button, ButtonGroup } from "react-bootstrap";
        </div>
       
        <button className="addProduct" type='Submit'
-       //</form> onClick={addNewProducts }
        >Create</button>
       </form>      
     </div>

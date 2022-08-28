@@ -1,7 +1,7 @@
 
 import React from "react";
-import { db }from '../database/firebase'
-import "./product.css";
+import { db }from '../database/FireBase'
+import "./Product.css";
 class ProductName extends React.Component{
     state ={
         products: null
@@ -42,8 +42,6 @@ class ProductName extends React.Component{
         }) }
             </div>
         )
-
     }
-
 }
 export default ProductName

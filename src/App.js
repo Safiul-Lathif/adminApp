@@ -7,8 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductList from "./pages/productlist/productList";
 import Product from "./pages/productlist/productList";
 import NotificationPage from "./pages/notificationpage/NotificationPage";
-import Orders from "./pages/orderlist/order";
-import NewProduct from "./pages/newproduct/NewProduct";
+import Orders from "./pages/orderlist/Order";
 import EditProduct from "./pages/productedit/productEdit";
 import AddProduct from "./pages/newproduct/NewProduct";
 
