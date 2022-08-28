@@ -52,10 +52,10 @@ class Orders extends React.Component{
                     
                           
                           <tr className="widgetlgtr1">
-                            <td className="widgetlguser1">
-                              <span  alt="" className="widgetlgimage1" >{e.cartTotl}</span>
+                            <td className="widgetlguser1">{e.Id}
+                              {/* <span  alt="" className="widgetlgimage1" >{e.cartTotl}</span>
                               <span className="widgetlgdate1">{e.paymentId}</span>
-                  
+                   */}
                             </td>
                             <td className="widgetlgdate1">{e.createdAt}</td>
                             <td className="widgetlgamount1">{e.cartTotal}</td>

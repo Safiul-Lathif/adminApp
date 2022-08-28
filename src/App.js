@@ -8,8 +8,9 @@ import ProductList from "./pages/productlist/productList";
 import Product from "./pages/productlist/productList";
 import NotificationPage from "./pages/notificationpage/NotificationPage";
 import Orders from "./pages/orderlist/order";
-import NewProducts from "./pages/newproduct/NewProduct";
-import ProductEdit from "./pages/productedit/productEdir";
+import NewProduct from "./pages/newproduct/NewProduct";
+import EditProduct from "./pages/productedit/productEdit";
+import AddProduct from "./pages/newproduct/NewProduct";
 
 function App() {
   return (
@@ -22,9 +23,9 @@ function App() {
           <Route path="/users" component={Orders} />
           <Route path="/products" component={ProductList}/>
           <Route path="/product/:ProductID" component={Product} />
-          <Route path="/newProduct" component={NewProducts} />
+          <Route path="/newProduct" component={AddProduct} />
           <Route path="/NotificationPage" component={NotificationPage}/>
-          <Route path="/ProductEdit" component={ProductEdit}/>
+          <Route path="/ProductEdit" component={EditProduct}/>
         </Switch>
       </div>
     </Router>
