@@ -4,13 +4,12 @@ import Topbar from "./components/topbar/TopBar";
 import "./App.css";
 import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import UserList from "./pages/userlist/UserList";
-import User from "./pages/user/User";
-import NewUser from "./pages/newuser/NewUser";
-import ProductList from "./pages/productlist/ProductList";
-import Product from "./pages/product/Product";
-import NewProduct from "./pages/newproduct/NewProduct";
+import ProductList from "./pages/productlist/productList";
+import Product from "./pages/productlist/productList";
 import NotificationPage from "./pages/notificationpage/NotificationPage";
+import Orders from "./pages/orderlist/Order";
+import EditProduct from "./pages/productedit/productEdit";
+import AddProduct from "./pages/newproduct/NewProduct";
 
 function App() {
   return (
@@ -20,13 +19,12 @@ function App() {
         <Sidebar />
         <Switch>
           <Route exact path="/" component={Home} /> 
-          <Route path="/users" component={UserList} />
-          <Route path="/user/:userID" component={User} />
-          <Route path="/newuser" component={NewUser} />
+          <Route path="/users" component={Orders} />
           <Route path="/products" component={ProductList}/>
           <Route path="/product/:ProductID" component={Product} />
-          <Route path="/newProduct" component={NewProduct} />
+          <Route path="/newProduct" component={AddProduct} />
           <Route path="/NotificationPage" component={NotificationPage}/>
+          <Route path="/ProductEdit" component={EditProduct}/>
         </Switch>
       </div>
     </Router>
